@@ -31,7 +31,6 @@ local Window = Library:CreateWindow('Test Hub', '[YIN / YANG] Ninja Assassin', '
 local Tab = Window:CreateTab('[YIN / YANG] Ninja Assassin', true, 'rbxassetid://3926305904', Vector2.new(524, 44), Vector2.new(36, 36))
 local Section = Tab:CreateSection('Section')
 local Button = Section:CreateButton('Start Farm', function()
-wait(0.5)
 _G.NoClip = true
         getgenv().a = true
         while getgenv().a do
